@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgba(rgb(241, 227, 227), rgb(239, 244, 239), rgb(238, 238, 242), 0.3);
+    
+    
+}
+hr{
+    border: 1px solid white;
+}
+.label1{
+    color: white;
+}
+
+.head{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 40px;
+    color: #FCFFE7
+    
+}
+#name{
+    padding: 10px 300px;
+    margin-left: 1%;
+    font-size: large;
+    border: 2px solid black;
+
+}
+
+form{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.control{
+    margin-left: 100px;
+    margin-right: 70px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.sec{
+    font-size: larger;
+    margin: 40px 200px;
+    border: 2px solid white;
+    
+   
+}
+.box2{
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+.box2:hover{
+    background-color: rgb(248, 244, 236);
+    opacity: 0.8;
+    color: black;
+    }
+.box{
+    border: 1px solid white;
+    padding: 10px 30px;
+    
+}
+.box:hover{
+background-color: rgb(251, 245, 232);
+opacity: 0.8;
+color: black;
+}
+.table2{
+    margin-left: 25%;
+}
+.table3{
+    margin-left: 10%;
+}
+#ta{
+    margin-left: 1%;
+    padding: 10px 300px;
+    border: 2px solid black;
+    font-size: larger;
+}
+
+.radclass{
+text-align: center;
+}
+
+button{
+    padding: 10px 70px;
+    margin-left: 40%;
+    border: 2px solid black;
+
+}
+button:hover{
+    background-color: black;
+    color: beige;
+    border: 2px solid white;
+}

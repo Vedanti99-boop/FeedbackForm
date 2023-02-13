@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Survey.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <form action="/abc">
+        <div class="control">
+          <div class="head">
+            Feedback form
+            <hr />
+          </div>
+          <label class="label1" for="name">1.Name</label><br /><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter you answer"
+            required
+          /><br /><br />
+
+          <label for="cb"
+            >2.Did the session meet your expectations? Please rate in a scale of
+            1 to 5, 5 being the highest rating</label
+          ><br /><br />
+          <table class="table2">
+            <thead>
+              <tr>
+                <th class="box2">1</th>
+                <th class="box2">2</th>
+                <th class="box2">3</th>
+                <th class="box2">4</th>
+                <th class="box2">5</th>
+              </tr>
+            </thead>
+          </table>
+          <br />
+
+          <label for="cb2"
+            >3.How would you rate the quality of the session? Please rate in a
+            scale of 1 to 5, 5 being the highest rating</label
+          ><br /><br />
+          <table class="table2">
+            <thead>
+              <tr>
+                <th class="box2">1</th>
+                <th class="box2">2</th>
+                <th class="box2">3</th>
+                <th class="box2">4</th>
+                <th class="box2">5</th>
+              </tr>
+            </thead>
+          </table>
+          <br />
+
+          <label for="cs">4.Content and Speaker</label><br /><br />
+          <table>
+            <thead>
+              <tr>
+                <td></td>
+                <td>Strongly Agree</td>
+                <td>&nbsp; &nbsp; &nbsp;Agree</td>
+                <td>&nbsp; &nbsp; &nbsp;Neutral</td>
+                <td>&nbsp; &nbsp; &nbsp;Disagree</td>
+                <td>&nbsp; &nbsp; &nbsp;Strongly Disagree</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <div>
+                <tr>
+                  <td>The content of the session was useful and interesting</td>
+                  <br /><br />
+                  <td class="radclass"><input class="rad" type="radio" /></td>
+                  <td class="radclass"><input class="rad" type="radio" /></td>
+                  <td class="radclass"><input class="rad" type="radio" /></td>
+                  <td class="radclass"><input class="rad" type="radio" /></td>
+                  <td class="radclass"><input class="rad" type="radio" /></td>
+                </tr>
+              </div>
+              <div>
+                <tr>
+                  <td>The content was structured and well organised</td>
+                  <td class="radclass"><input name="rad1" type="radio" /></td>
+                  <td class="radclass"><input name="rad1" type="radio" /></td>
+                  <td class="radclass"><input name="rad1" type="radio" /></td>
+                  <td class="radclass"><input name="rad1" type="radio" /></td>
+                  <td class="radclass"><input name="rad1" type="radio" /></td>
+                </tr>
+              </div>
+              <div>
+                <tr>
+                  <td>Speaker explained the concepts clearly</td>
+                  <td class="radclass"><input name="rad2" type="radio" /></td>
+                  <td class="radclass"><input name="rad2" type="radio" /></td>
+                  <td class="radclass"><input name="rad2" type="radio" /></td>
+                  <td class="radclass"><input name="rad2" type="radio" /></td>
+                  <td class="radclass"><input name="rad2" type="radio" /></td>
+                </tr>
+              </div>
+              <div>
+                <tr>
+                  <td>Speaker had a deep knowledge of the content</td>
+                  <td class="radclass"><input name="rad3" type="radio" /></td>
+                  <td class="radclass"><input name="rad3" type="radio" /></td>
+                  <td class="radclass"><input name="rad3" type="radio" /></td>
+                  <td class="radclass"><input name="rad3" type="radio" /></td>
+                  <td class="radclass"><input name="rad3" type="radio" /></td>
+                </tr>
+              </div>
+            </tbody>
+          </table>
+          <br />
+
+          <label for=""
+            >5.How likely are you to recommend the event to a friend or
+            colleague?</label
+          ><br /><br />
+
+          <table class="table3">
+            <thead>
+              <tr>
+                <th class="box">1</th>
+                <th class="box">2</th>
+                <th class="box">3</th>
+                <th class="box">4</th>
+                <th class="box">5</th>
+                <th class="box">6</th>
+                <th class="box">7</th>
+                <th class="box">8</th>
+                <th class="box">9</th>
+                <th class="box">10</th>
+              </tr>
+            </thead>
+          </table>
+          <br />
+          <table>
+            <!-- tr*3>td*3$ -->
+          </table>
+          <label for="ta">6.Any suggestions/comments? </label><br /><br />
+          <textarea name="ta" id="ta" placeholder="Enter your answer"></textarea
+          ><br /><br />
+          <button>Submit</button><br /><br />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
