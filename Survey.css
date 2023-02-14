@@ -9,6 +9,7 @@ body {
     rgb(238, 238, 242),
     0.3
   );
+  background-attachment: fixed;
 }
 
 img {
