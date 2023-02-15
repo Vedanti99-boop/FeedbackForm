@@ -55,7 +55,7 @@ form {
 
 .sec {
   font-size: larger;
-  margin: 40px 150px;
+  margin: 40px 100px;
   border: 2px solid white;
 }
 
@@ -82,6 +82,10 @@ form {
   opacity: 0.8;
   color: black;
 }
+
+/* .sp {
+  padding-right: 40px;
+} */
 
 .table2 {
   margin-left: 25%;
